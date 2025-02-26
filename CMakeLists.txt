@@ -51,7 +51,6 @@ target_sources(projeto PRIVATE projeto.c)
 # Add the standard library to the build
 target_link_libraries(projeto
         pico_stdlib
-        hardware_pwm
         hardware_pio
         hardware_adc
         hardware_i2c)
